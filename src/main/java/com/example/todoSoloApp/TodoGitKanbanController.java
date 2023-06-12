@@ -12,4 +12,9 @@ public class TodoGitKanbanController {
     public String helloWorld() {
         return "To-do Application !";
     }
+
+    @GetMapping("/doit")
+    public String icando() {
+        return "I can do it !";
+    }
 }
