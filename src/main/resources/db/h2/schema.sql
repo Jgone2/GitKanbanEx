@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS 'todo' {
+    'id' INT AUTO_INCREMENT PRIMARY KEY,
+    'title' VARCHAR(100) NOT NULL,
+    'todoOrder' INT AUTO_INCREMENT,
+    'completed' BOOLEAN DEFAULT FALSE,
+    }
